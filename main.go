@@ -120,7 +120,6 @@ func main() {
 		"bShowPlayerList":                      "SHOW_PLAYER_LIST",
 		"RESTAPIEnabled":                       "REST_API_ENABLED",
 		"RESTAPIPort":                          "REST_API_PORT",
-		"AllowConnectPlatform":                 "ALLOW_CONNECT_PLATFORM",
 		"bIsUseBackupSaveData":                 "USE_BACKUP_SAVE_DATA",
 		"LogFormatType":                        "LOG_FORMAT_TYPE",
 		"SupplyDropSpan":                       "SUPPLY_DROP_SPAN",
@@ -214,7 +213,6 @@ func main() {
 		"bShowPlayerList":                      "TrueFalse", //bShowPlayerList=False
 		"RESTAPIEnabled":                       "TrueFalse", //RESTAPIEnabled=False
 		"RESTAPIPort":                          "Numeric",   //RESTAPIPort=8212
-		"AllowConnectPlatform":                 "String",    //AllowConnectPlatform=Steam
 		"bIsUseBackupSaveData":                 "TrueFalse", //bIsUseBackupSaveData=True
 		"LogFormatType":                        "String",    //LogFormatType=Text
 		"SupplyDropSpan":                       "Numeric",   //SupplyDropSpan=180
