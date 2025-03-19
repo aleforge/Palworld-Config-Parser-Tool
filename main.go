@@ -13,7 +13,7 @@ import (
 )
 
 // Version of the program
-const Version = "v1.0.18"
+const Version = "v1.0.20"
 
 func main() {
 	fmt.Println("Program Version:", Version)
@@ -136,6 +136,7 @@ func main() {
 		"EnablePredatorBossPal":                "ENABLE_PREDATOR_BOSS_PAL",
 		"MaxBuildingLimitNum":                  "MAX_BUILDING_LIMIT_NUM",
 		"ServerReplicatePawnCullDistance":      "SERVER_REPLICATE_PAWN_CULL_DISTANCE",
+		"bIsRandomizerPalLevelRandom":          "IS_RANDOMIZER_PAL_LEVEL_RANDOM",
 		"bAllowGlobalPalboxExport":				"ALLOW_GLOBAL_PALBOX_EXPORT",
 		"bAllowGlobalPalboxImport":				"ALLOW_GLOBAL_PALBOX_IMPORT",
 		"CrossplayPlatforms":					"CROSSPLAY_PLATFORMS",
@@ -229,6 +230,7 @@ func main() {
 		"EnablePredatorBossPal":                "TrueFalse", //EnablePredatorBossPal=True,
 		"MaxBuildingLimitNum":                  "Numeric",   //MaxBuildingLimitNum=0,
 		"ServerReplicatePawnCullDistance":      "Floating",  //ServerReplicatePawnCullDistance=15000.000000,
+		"bIsRandomizerPalLevelRandom":          "TrueFalse", //bIsRandomizerPalLevelRandom=False,
 		"bAllowGlobalPalboxExport":				"TrueFalse", //bAllowGlobalPalboxExport=True,
 		"bAllowGlobalPalboxImport":				"TrueFalse", //bAllowGlobalPalboxImport=False,		
 		"CrossplayPlatforms":					"String",	 //CrossplayPlatforms=(Steam,Xbox,PS5,Mac),
