@@ -137,6 +137,9 @@ func main() {
 		"EnablePredatorBossPal":                "ENABLE_PREDATOR_BOSS_PAL",
 		"MaxBuildingLimitNum":                  "MAX_BUILDING_LIMIT_NUM",
 		"ServerReplicatePawnCullDistance":      "SERVER_REPLICATE_PAWN_CULL_DISTANCE",
+		"bAllowGlobalPalboxExport":				"ALLOW_GLOBAL_PALBOX_EXPORT",
+		"bAllowGlobalPalboxImport":				"ALLOW_GLOBAL_PALBOX_IMPORT",
+		"CrossplayPlatforms":					"CROSSPLAY_PLATFORMS",
 		// Add other environment variables and corresponding INI keys here
 	}
 
@@ -228,7 +231,9 @@ func main() {
 		"EnablePredatorBossPal":                "TrueFalse", //EnablePredatorBossPal=True,
 		"MaxBuildingLimitNum":                  "Numeric",   //MaxBuildingLimitNum=0,
 		"ServerReplicatePawnCullDistance":      "Floating",  //ServerReplicatePawnCullDistance=15000.000000,
-
+		"bAllowGlobalPalboxExport":				"TrueFalse", //bAllowGlobalPalboxExport=True,
+		"bAllowGlobalPalboxImport":				"TrueFalse", //bAllowGlobalPalboxImport=False,		
+		"CrossplayPlatforms":					"String",	 //CrossplayPlatforms=(Steam,Xbox,PS5,Mac),
 		// Add other keys as needed
 	}
 
