@@ -140,6 +140,8 @@ func main() {
 		"bAllowGlobalPalboxExport":				"ALLOW_GLOBAL_PALBOX_EXPORT",
 		"bAllowGlobalPalboxImport":				"ALLOW_GLOBAL_PALBOX_IMPORT",
 		"CrossplayPlatforms":					"CROSSPLAY_PLATFORMS",
+		"EquipmentDurabilityDamageRate":        "EQUIPMENT_DURABILITY_DAMAGE_RATE",
+		"ItemContainerForceMarkDirtyInterval":  "ITEM_CONTAINER_FORCE_MARK_DIRTY_INTERVAL",
 		// Add other environment variables and corresponding INI keys here
 	}
 
@@ -234,6 +236,8 @@ func main() {
 		"bAllowGlobalPalboxExport":				"TrueFalse", //bAllowGlobalPalboxExport=True,
 		"bAllowGlobalPalboxImport":				"TrueFalse", //bAllowGlobalPalboxImport=False,		
 		"CrossplayPlatforms":					"String",	 //CrossplayPlatforms=(Steam,Xbox,PS5,Mac),
+		"EquipmentDurabilityDamageRate":        "Floating",  //EquipmentDurabilityDamageRate=1.000000,
+		"ItemContainerForceMarkDirtyInterval":  "Floating",  //ItemContainerForceMarkDirtyInterval=1.000000,
 		// Add other keys as needed
 	}
 
